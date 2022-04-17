@@ -3,6 +3,9 @@ import { SessionProvider } from 'next-auth/react';
 import { RecoilRoot } from 'recoil';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
+  useEffect(() => {
+    import('tw-elements');
+  }, []);
   return (
     <SessionProvider session={session}>
       <RecoilRoot>
