@@ -1,23 +1,33 @@
-# Next.js + Tailwind CSS Example
+### Instagram Clone App
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+serhatgram is instagram clone app which created by Serhat Uzbaş. Project includes Next.js, Next-auth, TailwindCss, Recoil, Firebase and more.
 
-## Deploy your own
+# Functionality
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+1) User can authenticate his/her own account via Google Provider. (via Next-auth)
+2) User can upload photo from his/her local.
+3) User can make comment to posts.
+4) User can likes the posts.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+# Other Details
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+1) Faker.js is used to get fake users data in order to show in stories/recommendation sections.
+2) HeadlessUI is used to style an animate modal screen.
+3) Heroicons is used to get icons.
+4) Recoil is used to set state of modal screen.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Personal Notes
+
+Using TailwindCSS in bigger project makes sense, I start to love TailwindCSS, easy-to-write and mobile friendly.
+
+Recoil is used as basic level, but when i researched Recoil features and what it promises, I really like it and i think it will replace with Redux in a near future.
+
+Next-auth is practical and safe.
+
+
+#### Important
+
+When i tried to deploy the project to vercel, Tailwind is not working and I can't find any solution online. If you have an idea about problem, please let me know.
+
