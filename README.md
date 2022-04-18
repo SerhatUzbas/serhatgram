@@ -1,6 +1,6 @@
 # Instagram Clone App
 
-serhatgram is instagram clone app which created by Serhat Uzbaş. Project includes Next.js, Next-auth, TailwindCss, Recoil, Firebase and more.
+serhatgram is instagram clone app. Project includes Next.js, Next-auth, TailwindCss, Recoil, Firebase and more. I researched lot of project and inspired from them to do it, especially Sonny Sangha's project.  
 
 ## Functionality
 
