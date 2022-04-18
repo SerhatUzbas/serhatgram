@@ -1,8 +1,8 @@
-### Instagram Clone App
+# Instagram Clone App
 
 serhatgram is instagram clone app which created by Serhat Uzbaş. Project includes Next.js, Next-auth, TailwindCss, Recoil, Firebase and more.
 
-# Functionality
+## Functionality
 
 1) User can authenticate his/her own account via Google Provider. (via Next-auth)
 2) User can upload photo from his/her local.
@@ -10,7 +10,7 @@ serhatgram is instagram clone app which created by Serhat Uzbaş. Project includ
 4) User can likes the posts.
 
 
-# Other Details
+## Other Details
 
 1) Faker.js is used to get fake users data in order to show in stories/recommendation sections.
 2) HeadlessUI is used to style an animate modal screen.
@@ -27,7 +27,7 @@ Recoil is used as basic level, but when i researched Recoil features and what it
 Next-auth is practical and safe.
 
 
-#### Important
+## Important
 
 When i tried to deploy the project to vercel, Tailwind is not working and I can't find any solution online. If you have an idea about problem, please let me know.
 
